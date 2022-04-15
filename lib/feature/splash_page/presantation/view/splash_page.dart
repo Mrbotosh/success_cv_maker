@@ -1,6 +1,5 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:success_cv_maker/core/constants/image_constants.dart';
 import 'package:success_cv_maker/core/router/router_path.dart';
 

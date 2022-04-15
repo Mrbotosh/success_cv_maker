@@ -13,12 +13,12 @@ class LoginPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Login Page"),
+            const Text("Login Page"),
             ElevatedButton(
               onPressed: () {
                 context.router.pushNamed(RouterPath.homePage);
               },
-              child: Text("HomePage"),
+              child: const Text("HomePage"),
             ),
           ],
         ),

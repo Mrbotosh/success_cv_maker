@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:success_cv_maker/core/theme/app_colors.dart';
 
-enum AppTheme { PRIMARY_THEME, DARK_MODE }
+enum AppTheme { PRIMARY_THEME }
 
 final appThemeData = {
   AppTheme.PRIMARY_THEME: ThemeData(
@@ -12,5 +12,4 @@ final appThemeData = {
     appBarTheme: const AppBarTheme(backgroundColor: AppColors.green),
     scaffoldBackgroundColor: AppColors.green,
   ),
-  AppTheme.DARK_MODE: ThemeData(),
 };
