@@ -13,7 +13,7 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
-    Future.delayed(const Duration(seconds: 100)).then((value) {
+    Future.delayed(const Duration(seconds: 3)).then((value) {
       context.router.pushNamed(RouterPath.loginPage);
     });
     super.initState();

@@ -14,7 +14,7 @@ import 'package:auto_route/auto_route.dart' as _i4;
 import 'package:flutter/material.dart' as _i5;
 
 import '../../feature/homepage/presentation/view/home_page.dart' as _i2;
-import '../../feature/login/presentation/view/login_page.dart' as _i3;
+import '../../feature/login/presentation/view/authentication/login_page.dart' as _i3;
 import '../../feature/splash_page/presantation/view/splash_page.dart' as _i1;
 
 class AppRouter extends _i4.RootStackRouter {

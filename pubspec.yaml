@@ -28,3 +28,20 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+
+  fonts:
+    - family: SatoshiBold
+      fonts:
+        - asset: assets/fonts/Satoshi-Bold.otf
+
+    - family: SatoshiLight
+      fonts:
+        - asset: assets/fonts/Satoshi-Light.otf
+
+    - family: SatoshiRegular
+      fonts:
+        - asset: assets/fonts/Satoshi-Regular.otf
+
+    - family: LemonTea
+      fonts:
+        - asset: assets/fonts/LemonTea.ttf

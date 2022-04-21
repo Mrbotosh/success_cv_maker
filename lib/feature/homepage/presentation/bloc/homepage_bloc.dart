@@ -7,7 +7,6 @@ part 'homepage_state.dart';
 class HomepageBloc extends Bloc<HomepageEvent, HomepageState> {
   HomepageBloc() : super(HomepageInitial()) {
     on<HomepageEvent>((event, emit) {
-      // TODO: implement event handler
     });
   }
 }
