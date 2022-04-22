@@ -78,9 +78,9 @@ class LoginPage extends StatelessWidget {
               },
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.symmetric(vertical: 1, horizontal: 1),
               child: SizedBox(
-                width: 250,
+                width: 300,
                 height: 40,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(

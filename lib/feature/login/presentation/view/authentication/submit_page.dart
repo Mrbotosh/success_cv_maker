@@ -55,11 +55,11 @@ class SubmitPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: SizedBox(
-                width: 250,
+                width: 300,
                 height: 40,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(250, 40),
+                    fixedSize: const Size(300, 40),
                     primary: AppColors.navyBlue, // background
                     onPrimary: Colors.white, // foreground
                     shape: RoundedRectangleBorder(
