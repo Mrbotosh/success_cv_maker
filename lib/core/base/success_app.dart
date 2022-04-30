@@ -12,7 +12,7 @@ class SuccessApp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routerDelegate: _appRouter.delegate(initialRoutes: [
-        const SplashRoute(),
+        const CvCreateRoute(),
       ]),
       routeInformationParser: _appRouter.defaultRouteParser(),
       theme: appThemeData[AppTheme.PRIMARY_THEME],
